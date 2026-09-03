@@ -108,17 +108,9 @@ public class Sighting {
 
     @Override
     public String toString() {
-        return "Sighting{" +
-                "id=" + id +
-                ", sightingCode='" + sightingCode + '\'' +
-                ", name='" + name + '\'' +
-                ", description='" + description + '\'' +
-                ", scientificName='" + scientificName + '\'' +
-                ", sightedAt='" + sightedAt + '\'' +
-                ", location='" + location + '\'' +
-                ", quantity=" + quantity +
-                ", confidenceLevel=" + confidenceLevel +
-                ", expeditionId=" + expeditionId +
-                '}';
+        return null;
+    }
+
+    public void put(int id, Sighting sighting) {
     }
 }
